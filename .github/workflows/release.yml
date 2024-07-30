@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ncipollo/release-action@v1
         with:
-          tag: "0.0.2"
-          body: ""
+          tag: "0.0.3"
+          body: "release test3"
           makeLatest: "latest"
-          generateReleaseNotes: "true"
+          generateReleaseNotes: "false"
